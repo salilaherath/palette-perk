@@ -14,38 +14,3 @@ body {
   color: white;
 }
 
-header {
-  padding: 1rem 4rem;
-  width: 100%;
-  min-height: 10vh;
-  background: #262626;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-  border-bottom: 2px solid var(--border);
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 3rem;
-}
-
-header h1{
-  font-weight: bold;
-}
-
-header .input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} 
-
-.input label {
-  padding: 0.5rem 2rem;
-  border-radius: 0.5rem;
-  border: 2px solid var(--border);
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}

@@ -11,16 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={noto_serif.className}>
-        <header>
-          <h1>Palette Perk</h1>
-          <div className='input'>
-            <label htmlFor='file'>Upload Image</label>
-            <input type='file' id='file' hidden />
-          </div>
-        </header>
-        {children}
-      </body>
+      <body className={noto_serif.className}>{children}</body>
     </html>
   );
 }
