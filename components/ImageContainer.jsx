@@ -16,7 +16,9 @@ function ImageContainer({ uploadedImage, colorPalette }) {
         {uploadedImage ? (
           <img src={uploadedImage} alt='uploaded' />
         ) : (
-          <h2>Upload your image to get started!</h2>
+          <h2 className={styles.imageText}>
+            Upload your image to get started!
+          </h2>
         )}
       </div>
       {colorPalette && (

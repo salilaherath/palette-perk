@@ -140,4 +140,9 @@
     .hide {
         display: none;
     }
+
+    .imageText {
+        font-size: 20px;
+        text-align: center;
+    }
 }
