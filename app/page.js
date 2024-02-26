@@ -34,8 +34,10 @@ export default function Home() {
         <h1 className={styles.h1}>Palette Perk</h1>
         <div className='input'>
           <label htmlFor='file' className={styles.label}>
-            <IoImages />
-            Upload Image
+            <IoImages className={styles.hide} />
+            <div>
+              Upload <span className={styles.hide}>Image</span>
+            </div>
           </label>
           <input type='file' id='file' hidden onChange={uploadImage} />
         </div>
